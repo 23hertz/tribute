@@ -10,8 +10,13 @@
     max-width: 470px;
     margin: 0px auto;
     width: 100%;
+<<<<<<< HEAD
     padding: .5em; 
     background: url(/pics/970091.jpg) no-repeat center fixed;
+=======
+    padding: 1em; 
+    background: url(pics/970091.jpg) no-repeat center fixed;
+>>>>>>> 4b1b29c3843670853cbb91ba9f6ab4a3374997f5
     background-size: cover;
 }
 
@@ -144,6 +149,10 @@ h3{
     h2{
         font-size: 1.2rem;
     }
+<<<<<<< HEAD
   } */
 
   
+=======
+  }
+>>>>>>> 4b1b29c3843670853cbb91ba9f6ab4a3374997f5
