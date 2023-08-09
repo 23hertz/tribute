@@ -7,7 +7,7 @@
 .container
 {
     height: 100vh;
-    max-width: 480px;
+    max-width: 470px;
     margin: 0px auto;
     width: 100%;
     padding: .5em; 
@@ -27,40 +27,64 @@
 {
     text-align: center;
     color: #fff;
-    line-height: 60px;
+    line-height: 40px;
     font-size:12px;
 }
 
 h1
 {
-        font-size:1rem;
+        font-size:2em;
         font-weight: bold;
+        font-weight: 900px;
         font-variant: normal;
 }
 
 h2{
-    font-size: 0.8rem;
+    font-size: 1.6em;
 }
 
 h3{
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 
-/* @media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
+    .container
+    {
+        height: 100vh;
+        margin: 0px auto;
+        width: 100vw;
+        padding: .5em; 
+        background: url(/pics/970091.jpg) no-repeat center fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
     .imgpart
     {
-        width: 100%;
-        height: 50%;
+        width: 50%;
+        height: 100%;
     }
+
     .imgpart img
     {
-        width: 50%;
-        height: 45%;
-        display: block;
-        margin: 0 auto;
+        width: 90%;
+        height: 100vh;
+
     }
 
     .details
+    {
+        width: 50%;
+        height: 50%;
+        line-height: 40px;
+        color: #fff;
+    }
+   
+
+    /* .details
     {
         text-align: center;
         color: #fff;
@@ -81,8 +105,8 @@ h3{
 
     h2{
         font-size: 1.2rem;
-    }
-  } */
+    } */
+  }
 
   /* @media only screen and (max-width: 720px) {
     .imgpart
