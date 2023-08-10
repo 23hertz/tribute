@@ -13,8 +13,10 @@
     height: 100vh;
     margin: 0px auto;
     background:url("../picss/691464-arsenal-logo-wallpaper-2018-1920x1080-meizu.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .imgpart
