@@ -13,7 +13,7 @@
     height: 100vh;
     margin: 0px auto;
     background:url("../picss/691464-arsenal-logo-wallpaper-2018-1920x1080-meizu.jpg");
-    background-size: contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -49,4 +49,55 @@ h2{
 
 h3{
     font-size: 1rem;
+}
+
+
+/* bigger screen */
+
+@media only screen and (min-width: 480px) {
+    .container
+    {
+        /* height: 100vh;
+        margin: 0px auto;
+        width: 100vw;
+        padding: .5em; 
+        background: url(/pics/970091.jpg) no-repeat center fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; */
+
+        padding: 10px;
+        max-width: 470px;
+        width: 100%;
+        height: 100vh;
+        margin: 0px auto;
+        background:url("../picss/691464-arsenal-logo-wallpaper-2018-1920x1080-meizu.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .imgpart
+    {
+        width: 50%;
+        height: 100%;
+    }
+
+    .imgpart img
+    {
+        width: 90%;
+        height: 100vh;
+
+    }
+
+    .details
+    {
+        width: 50%;
+        height: 50%;
+        line-height: 40px;
+        color: #fff;
+    }
 }
