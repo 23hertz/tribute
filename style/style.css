@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    padding: 10px;
+    max-width: 470px;
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    background:url("../picss/691464-arsenal-logo-wallpaper-2018-1920x1080-meizu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgpart
+{
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.details
+{
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size:12px;
+}
+
+h1
+{
+        font-size:2em;
+        font-weight: bold;
+        font-weight: 900px;
+        font-variant: normal;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+h3{
+    font-size: 1rem;
+}
